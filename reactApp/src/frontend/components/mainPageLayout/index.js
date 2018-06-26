@@ -132,7 +132,7 @@ class MainPageLayout extends Component {
                 }}
             >
                 <div className={classes.drawerHeader}>
-                    <h3>Twitter timeline</h3>
+                    <h3>Mentor</h3>
                     <IconButton onClick={this.closeLeftMenu}>
                         {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />}
                     </IconButton>

@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="355c9d31-441d-4c7d-b3ce-b832566a26a3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactApp/src/frontend/components/dialogsTemplates/confirmDialog/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactApp/src/frontend/components/dialogsTemplates/userEditDialog/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactApp/src/frontend/components/tables/questionStatesTable/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactApp/src/frontend/components/tables/questionsTable/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactApp/src/frontend/components/tables/skillsTable/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactApp/src/frontend/components/tables/userTable/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactApp/src/frontend/components/tabs/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactApp/src/frontend/reducers/skills.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/case-sensitive-paths-webpack-plugin/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/case-sensitive-paths-webpack-plugin/demo/.babelrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/case-sensitive-paths-webpack-plugin/demo/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/case-sensitive-paths-webpack-plugin/demo/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/case-sensitive-paths-webpack-plugin/demo/karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/case-sensitive-paths-webpack-plugin/demo/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/case-sensitive-paths-webpack-plugin/demo/servers/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/case-sensitive-paths-webpack-plugin/demo/src/AppRoot.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/case-sensitive-paths-webpack-plugin/demo/src/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/case-sensitive-paths-webpack-plugin/demo/src/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/case-sensitive-paths-webpack-plugin/demo/src/utils/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/case-sensitive-paths-webpack-plugin/demo/test/case-sensitive-paths-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/case-sensitive-paths-webpack-plugin/demo/tests.webpack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/case-sensitive-paths-webpack-plugin/demo/webpack.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/case-sensitive-paths-webpack-plugin/test/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/case-sensitive-paths-webpack-plugin/test/fixtures/deleting-folder/entry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/case-sensitive-paths-webpack-plugin/test/fixtures/wrong-case/entry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/case-sensitive-paths-webpack-plugin/test/fixtures/wrong-case/testfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/case-sensitive-paths-webpack-plugin/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/flow-typed/cssom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/Jss.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/PluginsRegistry.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/RuleList.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/SheetsManager.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/SheetsRegistry.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/StyleSheet.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/plugins/functions.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/plugins/observables.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/plugins/rules.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/renderers/DomRenderer.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/renderers/VirtualRenderer.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/rules/ConditionalRule.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/rules/FontFaceRule.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/rules/KeyframesRule.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/rules/SimpleRule.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/rules/StyleRule.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/rules/ViewportRule.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/sheets.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/types.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/types.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/utils/cloneStyle.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/utils/createGenerateClassName.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/utils/createRule.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/utils/escape.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/utils/getDynamicStyles.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/utils/isObservable.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/utils/linkRule.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/utils/moduleId.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/utils/toCss.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/utils/toCssValue.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/dist/react-dom-server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/dist/react-dom-server.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/dist/react-dom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/dist/react-dom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ARIADOMPropertyConfig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/AutoFocusUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/BeforeInputEventPlugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/CSSProperty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/CSSPropertyOperations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/CallbackQueue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ChangeEventPlugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/DOMChildrenOperations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/DOMLazyTree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/DOMNamespaces.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/DOMProperty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/DOMPropertyOperations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/Danger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/DefaultEventPluginOrder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/EnterLeaveEventPlugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/EventConstants.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/EventPluginHub.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/EventPluginRegistry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/EventPluginUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/EventPropagators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/FallbackCompositionState.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/HTMLDOMPropertyConfig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/KeyEscapeUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/LinkedValueUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/PluginModuleType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/PooledClass.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactBrowserEventEmitter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactChildFiber.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactChildReconciler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactComponentBrowserEnvironment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactComponentEnvironment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactComponentTreeTestUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactCompositeComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactCoroutine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOM.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMComponentFlags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMComponentTree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMContainerInfo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMEmptyComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMFeatureFlags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMFiber.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMIDOperations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMInput.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMInvalidARIAHook.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMNullInputValuePropHook.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMOption.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMSelect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMSelection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMServer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMServerUMDEntry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMTextComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMTextarea.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMTreeTraversal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMUMDEntry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDOMUnknownPropertyHook.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDebugTool.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDefaultBatchingStrategy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactDefaultInjection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactElementSymbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactEmptyComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactErrorUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactEventEmitterMixin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactEventListener.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactFeatureFlags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactFiber.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactFiberBeginWork.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactFiberCommitWork.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactFiberCompleteWork.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactFiberReconciler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactFiberRoot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactFiberScheduler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactFiberUpdateQueue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactHostComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactHostOperationHistoryHook.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactInjection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactInputSelection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactInstanceMap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactInstanceType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactInstrumentation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactInvalidSetStateWarningHook.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactMarkupChecksum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactMount.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactMultiChild.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactMultiChildUpdateTypes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactNodeTypes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactOwner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactPerf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactPriorityLevel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactPropTypeLocationNames.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactPropTypeLocations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactPropTypesSecret.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactReconcileTransaction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactReconciler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactRef.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactReifiedYield.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactServerBatchingStrategy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactServerRendering.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactServerRenderingTransaction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactServerUpdateQueue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactShallowRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactSimpleEmptyComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactSyntheticEventType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactTestReconcileTransaction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactTestUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactTypeOfWork.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactTypes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactUpdateQueue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactUpdates.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ReactVersion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ResponderEventPlugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ResponderSyntheticEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ResponderTouchHistoryStore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/SVGDOMPropertyConfig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/SelectEventPlugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/SimpleEventPlugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/SyntheticAnimationEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/SyntheticClipboardEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/SyntheticCompositionEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/SyntheticDragEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/SyntheticEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/SyntheticFocusEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/SyntheticInputEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/SyntheticKeyboardEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/SyntheticMouseEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/SyntheticTouchEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/SyntheticTransitionEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/SyntheticUIEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/SyntheticWheelEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/TapEventPlugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/TouchHistoryMath.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/Transaction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/ViewportMetrics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/accumulate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/accumulateInto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/adler32.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/canDefineProperty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/checkReactTypeSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/createMicrosoftUnsafeLocalFunction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/dangerousStyleValue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/escapeTextContentForBrowser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/findDOMNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/flattenChildren.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/forEachAccumulated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/getEventCharCode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/getEventKey.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/getEventModifierState.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/getEventTarget.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/getHostComponentFromComposite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/getIteratorFn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/getNodeForCharacterOffset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/getTestDocument.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/getTextContentAccessor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/getVendorPrefixedEventName.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/inputValueTracking.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/instantiateReactComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/isEventSupported.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/isTextInputElement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/lowPriorityWarning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/quoteAttributeValueForBrowser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/reactComponentExpect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/reactProdInvariant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/renderSubtreeIntoContainer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/setInnerHTML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/setTextContent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/shouldUpdateReactComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/traverseAllChildren.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-dom/lib/validateDOMNesting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-event-listener/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-event-listener/lib/supports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/dist/react-with-addons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/dist/react-with-addons.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/dist/react.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/dist/react.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/KeyEscapeUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/LinkedStateMixin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/PooledClass.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/React.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactAddonsDOMDependencies.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactAddonsDOMDependenciesUMDShim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactBaseClasses.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactCSSTransitionGroup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactCSSTransitionGroupChild.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactChildren.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactComponentTreeDevtool.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactComponentTreeHook.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactComponentTreeHookUMDShim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactComponentWithPureRenderMixin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactCurrentOwner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactCurrentOwnerUMDShim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactDOMFactories.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactElement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactElementSymbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactElementType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactElementValidator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactFragment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactLink.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactNoopUpdateQueue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactPropTypeLocationNames.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactPropTypeLocations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactPropTypes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactPropTypesSecret.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactStateSetters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactTransitionChildMapping.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactTransitionEvents.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactTransitionGroup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactUMDEntry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactUMDShim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactVersion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactWithAddons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/ReactWithAddonsUMDEntry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/canDefineProperty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/checkReactTypeSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/createClass.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/flattenChildren.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/getIteratorFn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/getNextDebugID.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/getNextDebugIDUMDShim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/lowPriorityWarning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/onlyChild.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/reactProdInvariant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/shallowCompare.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/sliceChildren.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/traverseAllChildren.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/lib/update.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/react.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/recompose/node_modules/react-lifecycles-compat/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/recompose/node_modules/react-lifecycles-compat/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/recompose/node_modules/react-lifecycles-compat/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/recompose/node_modules/react-lifecycles-compat/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/recompose/node_modules/react-lifecycles-compat/react-lifecycles-compat.cjs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/recompose/node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/recompose/node_modules/react-lifecycles-compat/react-lifecycles-compat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/recompose/node_modules/react-lifecycles-compat/react-lifecycles-compat.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/stifle/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/stifle/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/stifle/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/stifle/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/reactApp/node_modules/stifle/yarn.lock" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reactApp/src/frontend/components/userTable/index.js" afterPath="$PROJECT_DIR$/reactApp/src/frontend/components/tables/userTable/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/build/index.html" afterPath="$PROJECT_DIR$/reactApp/build/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/csstype/index.d.ts" afterPath="$PROJECT_DIR$/reactApp/node_modules/csstype/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/csstype/index.js.flow" afterPath="$PROJECT_DIR$/reactApp/node_modules/csstype/index.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/csstype/package.json" afterPath="$PROJECT_DIR$/reactApp/node_modules/csstype/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/deepmerge/changelog.md" afterPath="$PROJECT_DIR$/reactApp/node_modules/deepmerge/changelog.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/deepmerge/package.json" afterPath="$PROJECT_DIR$/reactApp/node_modules/deepmerge/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/deepmerge/readme.md" afterPath="$PROJECT_DIR$/reactApp/node_modules/deepmerge/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss-expand/changelog.md" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss-expand/changelog.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss-expand/dist/jss-expand.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss-expand/dist/jss-expand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss-expand/dist/jss-expand.js.map" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss-expand/dist/jss-expand.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss-expand/dist/jss-expand.min.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss-expand/dist/jss-expand.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss-expand/dist/jss-expand.min.js.map" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss-expand/dist/jss-expand.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss-expand/docs/index.md" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss-expand/docs/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss-expand/lib/index.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss-expand/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss-expand/lib/index.test.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss-expand/lib/index.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss-expand/lib/props.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss-expand/lib/props.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss-expand/package.json" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss-expand/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss-preset-default/changelog.md" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss-preset-default/changelog.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss-preset-default/dist/jss-preset-default.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss-preset-default/dist/jss-preset-default.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss-preset-default/dist/jss-preset-default.min.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss-preset-default/dist/jss-preset-default.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss-preset-default/package.json" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss-preset-default/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/changelog.md" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss/changelog.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/dist/jss.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss/dist/jss.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/dist/jss.js.map" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss/dist/jss.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/dist/jss.min.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss/dist/jss.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/Jss.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/Jss.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/RuleList.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/RuleList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/StyleSheet.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/StyleSheet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/index.js.flow" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/index.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/plugins/rules.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss/lib/plugins/rules.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/package.json" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/jss/readme.md" afterPath="$PROJECT_DIR$/reactApp/node_modules/jss/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-jss/changelog.md" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-jss/changelog.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-jss/dist/react-jss.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-jss/dist/react-jss.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-jss/dist/react-jss.js.map" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-jss/dist/react-jss.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-jss/dist/react-jss.min.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-jss/dist/react-jss.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-jss/dist/react-jss.min.js.map" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-jss/dist/react-jss.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-jss/lib/createHoc.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-jss/lib/createHoc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-jss/package.json" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-jss/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-jss/readme.md" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-jss/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-lifecycles-compat/README.md" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-lifecycles-compat/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-lifecycles-compat/package.json" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-lifecycles-compat/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-lifecycles-compat/react-lifecycles-compat.cjs.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-lifecycles-compat/react-lifecycles-compat.cjs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-lifecycles-compat/react-lifecycles-compat.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-lifecycles-compat/react-lifecycles-compat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-lifecycles-compat/react-lifecycles-compat.min.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-lifecycles-compat/react-lifecycles-compat.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-popper/dist/cjs/react-popper.min.js.map" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-popper/dist/cjs/react-popper.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-popper/dist/umd/react-popper.min.js.map" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-popper/dist/umd/react-popper.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-popper/lib/Arrow.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-popper/lib/Arrow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-popper/lib/Manager.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-popper/lib/Manager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-popper/lib/Popper.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-popper/lib/Popper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-popper/lib/Target.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-popper/lib/Target.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react-popper/package.json" afterPath="$PROJECT_DIR$/reactApp/node_modules/react-popper/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/README.md" afterPath="$PROJECT_DIR$/reactApp/node_modules/react/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/react/package.json" afterPath="$PROJECT_DIR$/reactApp/node_modules/react/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/recompose/compose.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/recompose/compose.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/recompose/dist/Recompose.cjs.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/recompose/dist/Recompose.cjs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/recompose/dist/Recompose.cjs.js.flow" afterPath="$PROJECT_DIR$/reactApp/node_modules/recompose/dist/Recompose.cjs.js.flow" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/recompose/dist/Recompose.esm.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/recompose/dist/Recompose.esm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/recompose/dist/Recompose.min.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/recompose/dist/Recompose.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/recompose/dist/Recompose.umd.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/recompose/dist/Recompose.umd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/recompose/index.js" afterPath="$PROJECT_DIR$/reactApp/node_modules/recompose/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/recompose/package.json" afterPath="$PROJECT_DIR$/reactApp/node_modules/recompose/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/node_modules/stifle/package.json" afterPath="$PROJECT_DIR$/reactApp/node_modules/stifle/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/package-lock.json" afterPath="$PROJECT_DIR$/reactApp/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/package.json" afterPath="$PROJECT_DIR$/reactApp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/public/index.html" afterPath="$PROJECT_DIR$/reactApp/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/src/frontend/actionTypes.js" afterPath="$PROJECT_DIR$/reactApp/src/frontend/actionTypes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/src/frontend/actions/index.js" afterPath="$PROJECT_DIR$/reactApp/src/frontend/actions/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/src/frontend/api/index.js" afterPath="$PROJECT_DIR$/reactApp/src/frontend/api/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/src/frontend/components/createUserForm/index.js" afterPath="$PROJECT_DIR$/reactApp/src/frontend/components/createUserForm/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/src/frontend/components/mainPageLayout/index.js" afterPath="$PROJECT_DIR$/reactApp/src/frontend/components/mainPageLayout/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/src/frontend/containers/dashboard/index.js" afterPath="$PROJECT_DIR$/reactApp/src/frontend/containers/dashboard/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/src/frontend/reducers/index.js" afterPath="$PROJECT_DIR$/reactApp/src/frontend/reducers/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/src/main.css" afterPath="$PROJECT_DIR$/reactApp/src/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactApp/src/main.scss" afterPath="$PROJECT_DIR$/reactApp/src/main.scss" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/reactApp/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1920" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="355c9d31-441d-4c7d-b3ce-b832566a26a3" name="Default" comment="" />
+      <created>1529068045453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529068045453</updated>
+      <workItem from="1529068046742" duration="22000" />
+      <workItem from="1530002493438" duration="71000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="93000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25239617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

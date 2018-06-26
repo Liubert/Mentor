@@ -49,7 +49,7 @@ class CreateUserForm extends Component  {
                         id="margin-normal"
                         margin="none"/>
             <br/>
-            <Button  style={{margin:'20px 0px'}}  onClick={this.createUser} raised color="primary">
+            <Button  style={{margin:'20px 0px'}}  onClick={this.createUser} color="primary">
                 Create User
             </Button>
         </div>

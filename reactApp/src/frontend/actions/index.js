@@ -1,12 +1,30 @@
 import * as AT  from '../actionTypes'
 import {
   getUsers as fetchUsersApi,
+  getSkills as fetchSkillsApi,
 } from '../api'
 
 
 
 
-export const createUser = () => async dispatch => {
+// export const createUser = () => async dispatch => {
+//     dispatch({type: AT.USER_FETCH_START});
+//     try {
+//         const users = await fetchUsersApi();
+//         dispatch({
+//             type: AT.USER_FETCH_SUCCESS,
+//             payload: users
+//         })
+//     } catch (err) {
+//         dispatch({
+//             type: AT.USER_FETCH_FAILURE,
+//             payload: err,
+//             error: true
+//         })
+//     }
+// };
+
+export const fetchUsers = () => async dispatch => {
     dispatch({type: AT.USER_FETCH_START});
     try {
         const users = await fetchUsersApi();
@@ -23,17 +41,18 @@ export const createUser = () => async dispatch => {
     }
 };
 
-export const fetchUsers = () => async dispatch => {
-    dispatch({type: AT.USER_FETCH_START});
+export const fetchSkills = () => async dispatch => {
+    dispatch({type: AT.SKILLS_FETCH_START});
     try {
-        const users = await fetchUsersApi();
+        const skills = await fetchSkillsApi();
+        console.log(skills);
         dispatch({
-            type: AT.USER_FETCH_SUCCESS,
-            payload: users
+            type: AT.SKILLS_FETCH_SUCCESS,
+            payload: skills
         })
     } catch (err) {
         dispatch({
-            type: AT.USER_FETCH_FAILURE,
+            type: AT.SKILLS_FETCH_FAILURE,
             payload: err,
             error: true
         })
